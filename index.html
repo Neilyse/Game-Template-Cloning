@@ -20,7 +20,7 @@
     
 
     
- <nav class="bg-[url('../images/25_banner-bg.jpg.jpeg')] rounded-b-[10%] sticky top-0 z-50 flex justify-start items-start">
+ <nav class="bg-[url('../images/25_banner-bg.jpg.jpeg')] rounded-b-[10%] fixed left-0 w-full top-0 z-50 flex justify-start items-start">
 
             <img src="../images/10_logo.png " alt="lugx icon" class=" w-fit flex justify items-left">
 
@@ -66,7 +66,7 @@
  
 </header>
 
-
+<div class=" flex flex-col gap-12">
 <section class="">
 
     <div class="grid grid-cols-4 grid-rows-1 gap-x-2 place-items-center relative absolute -top-10 ">
@@ -306,15 +306,10 @@
    
     </div>
     
-
-    
-
-    
-
     <div class=" grid grid-cols-5 grid-rows-1 gap-4 px-5">
 
     
-    <div>
+<div>
         <div class="flex flex-col gap-8 bg-blue-500 rounded-4xl">
      <P class="text-white text-center"> Action</P>
     <img src="../images\09_categories-01.jpg.jpeg" class="rounded-4xl" >
@@ -363,7 +358,7 @@
   <p class=" pl-12  text-[rgb(238,98,107)] "><b>OUR SHOP</b></p>  
 <h2 class=" pl-12 text-4xl font-bold"> Go pre-Order</h2>
    <h2 class=" pl-12  text-4xl font-bold">Buy & Get</h2> 
-    <h2 class=" pl-12   text-4xl font-bold" > Best Prices </h2>
+    <h2 class=" pl-12   text-4xl font-bold" > Best <span class="text-[rgb(0,113,248)] text-4xl font-bold">prices</span> </h2>
      <h2 class=" pl-12  text-4xl font-bold">For you !</h2> <br>
 
 <p class="pl-12  font-bold text-md text-[rgb(133,133,133)]">Lorem Ipsum dolor consectetur</p>
@@ -379,26 +374,31 @@
 </div>
 <img src="../images\17_cta-bg.jpg.jpeg" class="rounded-4xl w-400 h-150">
 
-<div class="flex flex-col justify-center ">
+<div class="flex flex-col gap-2 justify-center items-left">
 
     <p class="pl-12 text-[rgb(238,98,107)] "><b>NEWSLETTER</b></p>
     <h2 class=" pl-12  text-4xl font-bold">GET UP TO $100 OFF </h2>
     <h2 class=" pl-12 text-4xl font-bold"> Just Buy</h2>
     <h2 class="pl-12  text-4xl text-[rgb(0,113,248)] font-bold">Subscribe</h2>
     <h2 class=" pl-12 text-4xl font-bold">Newsletter!</h2><br>
-      <label class="pl-12" >
+    <div class="flex ">
+         <label class="pl-12" >
 
         <input type="text" placeholder="your email">
 </label>
-<button class="bg-[rgb(238,98,107)] rounded-full text-white px-5 py-3 hover:opacity-80 transition">SUBSCRIBE NOW</button>
+<button class="bg-[rgb(238,98,107)] rounded-full text-md text-white px-5 py-3 hover:opacity-80 transition">SUBSCRIBE NOW</button>
+    </div>
+     
     
 
 </div>
+
     </section>
+    </div>
 
 </body>
 
-<footer class="bg-[url('../images/15_footer-bg.jpg.jpeg')] justify-center rounded-full text-white  h-70 py-5 font-bold text-center " >
+<footer class="bg-[url('../images/15_footer-bg.jpg.jpeg')] justify-center rounded-full text-white  h-70 py-8 font-bold text-center " >
    <p>Copyright © 2048 LUGX Gaming Company. All rights reserved.Design: TemplateMo  </p> 
    
 </footer>
